@@ -8,7 +8,7 @@ def load_urls(file_path):
     return urls
 
 # Example usage
-file_path = "C:/Users/dylan/COMP3850/Webscraping/websites.csv"  # Replace with your file path
+file_path = "webScraping test\websites.csv"  # CSV file with initial website links
 url_list = load_urls(file_path)
 print(f"Loaded {len(url_list)} URLs.")
 
